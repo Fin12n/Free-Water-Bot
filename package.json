@@ -1,0 +1,21 @@
+{
+  "name": "detector-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Discord content moderation bot using Gemini and discord.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "@google/generative-ai": "^0.21.0",
+    "mongoose": "^8.9.4",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
